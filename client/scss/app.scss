@@ -1,2 +1,9 @@
+@import "partials/vars";
 @import "partials/mixins";
-@import "partials/mixins";
+
+body {
+    font-family: $base-font;
+    background: $clr-body-bg;
+
+    @include flex();
+}
