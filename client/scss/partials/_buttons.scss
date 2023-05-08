@@ -1,0 +1,15 @@
+button {
+    &.md-primary {
+        padding: 8px 12px;   
+    }
+
+    &.accent {
+        background: $clr-accent;
+        @include text-color($clr-light-text);
+    }
+
+    &.rounded {
+        border-radius: 0.5rem;
+    }
+
+}
