@@ -92,6 +92,7 @@ System.register("app", [], function (exports_2, context_2) {
                 };
                 App.prototype.onLoginSubmit = function (e) {
                     e.preventDefault();
+                    console.log('you are logged in');
                 };
                 return App;
             }());
