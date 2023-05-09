@@ -1,6 +1,7 @@
 @import "partials/vars";
 @import "partials/mixins";
-
+@import "partials/newsletters";
+@import "partials/buttons";
 body {
     font-family: $base-font;
     background: $clr-body-bg;
