@@ -6,3 +6,7 @@
 @mixin flex() {
     display: flex;
 }
+
+@mixin text-color($color) {
+    color: $color;
+}
